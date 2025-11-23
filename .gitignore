@@ -1,0 +1,18 @@
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# Quarto files
+.quarto/
+_site/
+*.quarto_ipynb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+/.quarto/
+**/*.quarto_ipynb

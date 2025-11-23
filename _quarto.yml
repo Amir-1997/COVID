@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "R-Titans"
+  description: "Where scholars are made"
+  navbar:
+    left:
+      - href: WORLD.qmd
+        text: Home
+        
+    right:
+      - icon: github
+        href: https://github.com/Amir-1997
+        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/amir1997
+        target: _blank
+
+format:
+  html:
+    theme: flatly
+    toc: true
+    toc-floating: true
+    css: styles.css
+
+execute:
+  warning: false
+  message: false
+
+editor: visual

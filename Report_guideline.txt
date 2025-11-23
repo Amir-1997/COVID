@@ -1,0 +1,12 @@
+
+1. if you want to cross_plot different    numerical variables, you can use
+   => pair(df[,col1:col3]).
+
+2. horizontal clustering:the cross_plot equivalent of finding related groups using our parameters. it uses euclidean distance between two points and groups them until it creates one big group.
+-  A typical deondogram.
+
+=>hclust(dist(t(df[, cols]))
+if skewed, use dist(t(log10(df[, cols[)))
+
+3. 
+
